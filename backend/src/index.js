@@ -20,8 +20,12 @@ const PORT = process.env.PORT
 // here we are adding a middleware to get a data into a readable formate
 app.use(express.json())
 
+const allowedOrigins = process.env.NODE_ENV === "development" 
+    ? ["http://localhost:5173"] 
+    : ["https://talksy-y3vl.onrender.com"];
+
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:allowedOrigins,
     credentials:true,
 }))
 
