@@ -17,8 +17,6 @@ const cookieParser = require('cookie-parser');
 dotenv.config() //this will help us to get the config the data from the dotEnv file
 const PORT = process.env.PORT
 
-// const __dirname = path.resolve();
-
 // here we are adding a middleware to get a data into a readable formate
 app.use(express.json())
 
@@ -36,8 +34,8 @@ app.use('/api/v1/auth',appRouter)
 // here we are calling a api for messages
 app.use('/api/v1/messages',messageRouter)
 
-// const __dirname = path.resolve();
-path.resolve();
+global.__dirname = path.resolve();
+// path.resolve();
 // console.log(path.resolve());
 
 cloudinary.config({
