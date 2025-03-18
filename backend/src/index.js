@@ -34,7 +34,7 @@ app.use('/api/v1/auth',appRouter)
 // here we are calling a api for messages
 app.use('/api/v1/messages',messageRouter)
 
-global.__dirname = path.resolve();
+const projectFilePath = path.resolve();
 // path.resolve();
 // console.log(path.resolve());
 
@@ -46,9 +46,9 @@ cloudinary.config({
 
 
 if (process.env.NODE_ENV === "production") {
-    app.use(express.static(path.join(__dirname, "../frontend/dist")));
+    app.use(express.static(path.join(projectFilePath, "../frontend/dist")));
     app.get("*", (req, res) => {
-        res.sendFile(path.join(__dirname, "../frontend", "dist", "index.html"));
+        res.sendFile(path.join(projectFilePath, "../frontend", "dist", "index.html"));
     });
 }
 
