@@ -37,6 +37,7 @@ app.use('/api/v1/auth',appRouter)
 app.use('/api/v1/messages',messageRouter)
 
 // const __dirname = path.resolve();
+path.resolve();
 // console.log(path.resolve());
 
 cloudinary.config({
