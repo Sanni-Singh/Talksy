@@ -21,8 +21,8 @@ const PORT = process.env.PORT
 app.use(express.json())
 
 const allowedOrigins = process.env.NODE_ENV === "development" 
-    ? ["http://localhost:5173"] 
-    : ["https://talksy-y3vl.onrender.com"];
+    ? "http://localhost:5173" 
+    : "https://talksy-y3vl.onrender.com";
 
 app.use(cors({
     origin:allowedOrigins,
