@@ -10,9 +10,10 @@ const generateToken = (userId,res)=>{
     // here we are sending the jwt and the token
     res.cookie('jwt',token,{
         maxAge: 7 * 24 * 60 * 60 * 1000, //this is 7 days in miliSec
-        // httpOnly:true, //prevent the XSS attacts cross-site secripting attacts
-        // sameSite:"Lax", //CSRD attacts cross-site request forgery attacts
+        httpOnly:true, //prevent the XSS attacts cross-site secripting attacts
+        sameSite:"Lax", //CSRD attacts cross-site request forgery attacts
         // secure:process.env.NODE_ENV === "production" //this is demoting that the re is http ot https in production is true otherwise is will false
+        secure: process.env.NODE_ENV !== "development",
     })
 
     return token;
