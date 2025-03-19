@@ -9,6 +9,7 @@ const BASEURL = "http://localhost:5000"
 import {io} from 'socket.io-client'
 import { useChatStore } from '../store/useChatStore';
 import { useAuthStore } from '../store/useAuthStore';
+import NoMessageShimmerUi from './NoMessageShimmerUi';
 
 
 const ChatBox = () => {
@@ -121,10 +122,17 @@ const dispatch = useDispatch();
 
 
 
-    if(isMessagesLoading || messages.length === 0) return (
+    if(isMessagesLoading ) return (
       <div className='flex-1 flex flex-col overflow-auto'>
         <ChatHEaderComponent/>
         <MessageShimmerUi/>
+        <SendMessageComponent/>
+      </div>
+    )
+    if(messages.length === 0 ) return (
+      <div className='flex-1 flex flex-col overflow-auto'>
+        <ChatHEaderComponent/>
+        <NoMessageShimmerUi/>
         <SendMessageComponent/>
       </div>
     )

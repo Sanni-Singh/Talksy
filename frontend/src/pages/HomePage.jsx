@@ -20,6 +20,9 @@ const HomePage = () => {
   const selectedUserUpdate = useSelector((store)=> store.messageStore.selectedUser);
   const onlineUsers = useSelector((store)=> store.userAuth.onlineUser);
 const navigate = useNavigate();
+const userCredentails = localStorage.getItem("userData");
+const userData = JSON.parse(userCredentails)
+
 
   //zustang
   const {selectedUser} = useChatStore();
@@ -29,6 +32,10 @@ const navigate = useNavigate();
 
   useEffect(()=>{
     checkAuth()
+    console.log(userData);
+    
+if(!userData) navigate('/signup');
+
   },[checkAuth])
   
 
