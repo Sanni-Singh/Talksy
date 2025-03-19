@@ -92,7 +92,7 @@ const SidebarComponent = () => {
                 className={`w-full p-3 flex items-center gap-3 hover:bg-gray-600 transition-colors ${selectedUser?._id === user._id ? "bg-gray-500 ring-1 gray-blue-500" : ""}`}
                 >
                     <div className="relative mx-auto lg:mx-0" >
-                        <img src={user.profilePic || "https://e7.pngegg.com/pngimages/664/275/png-clipart-himalayan-cat-thai-cat-siamese-cat-balinese-cat-birman-ragdoll-cat-mammal-animals.png"} alt={user.fullName}
+                        <img src={user.profilePic || "https://images.ctfassets.net/ub3bwfd53mwy/5WFv6lEUb1e6kWeP06CLXr/acd328417f24786af98b1750d90813de/4_Image.jpg?w=750"} alt={user.fullName}
                         className="size-12 object-cover rounded-full"
                         />
 

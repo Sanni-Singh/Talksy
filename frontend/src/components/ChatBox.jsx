@@ -10,6 +10,7 @@ import {io} from 'socket.io-client'
 import { useChatStore } from '../store/useChatStore';
 import { useAuthStore } from '../store/useAuthStore';
 import NoMessageShimmerUi from './NoMessageShimmerUi';
+import { FaUser } from "react-icons/fa";
 
 
 const ChatBox = () => {
@@ -153,8 +154,8 @@ const dispatch = useDispatch();
               <img
                 src={
                   message.senderId === authUser?._id
-                    ? authUser?.profilePic || "/avatar.png"
-                    : selectedUser.profilePic || "/avatar.png"
+                    ? authUser?.profilePic || "https://images.ctfassets.net/ub3bwfd53mwy/5WFv6lEUb1e6kWeP06CLXr/acd328417f24786af98b1750d90813de/4_Image.jpg?w=750"
+                    : selectedUser.profilePic || "https://images.ctfassets.net/ub3bwfd53mwy/5WFv6lEUb1e6kWeP06CLXr/acd328417f24786af98b1750d90813de/4_Image.jpg?w=750"
                 }
                 alt="profile pic"
               />
