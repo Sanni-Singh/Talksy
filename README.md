@@ -5,6 +5,19 @@
 
 ---
 
+---
+
+<!-- ## 📸 Screenshots
+🖼️ **Chat Interface**  
+![Chat UI](https://via.placeholder.com/500)  
+🖼️ **Profile Page**  
+![Profile Page](https://via.placeholder.com/500) -->
+## 🌐 Try Talksy Live!
+🎉 **Jump into the conversation now!** 🚀🔥 Click below to start chatting instantly:  
+🔗 [**💬 Start Chatting on Talksy!**](https://talksy-y3vl.onrender.com)
+
+---
+
 ## 🌟 Features
 - 🔐 **Secure Authentication** - Sign up & log in with password protection.
 - ⚡ **Real-Time Messaging** - Instantly send & receive texts & images.
@@ -40,18 +53,7 @@
 - 🔒 **Bcrypt**
 - 🌍 **CORS** 
 
----
 
-<!-- ## 📸 Screenshots
-🖼️ **Chat Interface**  
-![Chat UI](https://via.placeholder.com/500)  
-🖼️ **Profile Page**  
-![Profile Page](https://via.placeholder.com/500) -->
-## 🌐 Try Talksy Live!
-🎉 **Jump into the conversation now!** 🚀🔥 Click below to start chatting instantly:  
-🔗 [**💬 Start Chatting on Talksy!**](https://talksy-y3vl.onrender.com)
-
----
 
 
 ## 📜 License
