@@ -1,6 +1,9 @@
 # 🚀 Talksy - The Ultimate Real-Time Chating App!
 
-![Talksy](./frontend/public/favicon.png)  
+<!-- ![Talksy](./frontend/public/favicon.png)   -->
+<p align="center">
+  <img src="./frontend/public/favicon.png" alt="Talksy Logo" width="150"/>
+</p>
 🎉 **Chat. Connect. Share. All in real-time!** 🌍💬
 
 ---
