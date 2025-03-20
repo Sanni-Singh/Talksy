@@ -57,6 +57,22 @@ Talksy is a powerful real-time chat application designed to bring seamless and i
 - 🔒 **Bcrypt**
 - 🌍 **CORS** 
 
+---
+## 📸 Screenshots
+🔑 **Login Interface**  
+![Login UI](./frontend//public/login.png)  
+
+🏠 **Home Page**  
+![Home Page](./frontend/public/home.png) 
+
+💬 **Chat Page**  
+![Chat Page](./frontend/public/chat.png) 
+
+👤 **Profile Page**  
+![Profile Page](./frontend/public/profile.png) 
+
+---
+
 
 
 
