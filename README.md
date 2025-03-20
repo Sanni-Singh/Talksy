@@ -4,17 +4,12 @@
 <p align="center">
   <img src="./frontend/public/favicon.png" alt="Talksy Logo" width="150"/>
 </p>
+
+---
 🎉 **Chat. Connect. Share. All in real-time!** 🌍💬
 
 ---
 
----
-
-<!-- ## 📸 Screenshots
-🖼️ **Chat Interface**  
-![Chat UI](https://via.placeholder.com/500)  
-🖼️ **Profile Page**  
-![Profile Page](https://via.placeholder.com/500) -->
 ## 🌐 Try Talksy Live!
 🎉 **Jump into the conversation now!** 🚀🔥 Click below to start chatting instantly:  
 🔗 [**💬 Start Chatting on Talksy!**](https://talksy-y3vl.onrender.com)
