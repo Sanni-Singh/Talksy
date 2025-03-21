@@ -83,7 +83,7 @@ const SidebarComponent = () => {
         
       </div>
         
-        <div>
+        <div className="overflow-y-auto">
 
             {filteredUsers && filteredUsers.map((user)=>(
                 <button

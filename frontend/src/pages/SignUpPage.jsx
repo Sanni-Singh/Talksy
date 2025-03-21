@@ -153,7 +153,7 @@ const formSubmit = async(e)=>{
           </form>
 
           {/**here we are modify the login for like form shold be a login or sing form*/}
-            <p>{loginInfo ? "Create A Account :-":"Already Have a Account ?"} <span onClick={()=> setLoginInfo(!loginInfo)} className="text-blue-600 cursor-pointer">{loginInfo ? "Sign Up" :"Login"}</span></p>
+            <p>{loginInfo ? "Create a account :-":"Already have a account ?"} <span onClick={()=> setLoginInfo(!loginInfo)} className="text-blue-600 cursor-pointer">{loginInfo ? "Sign Up" :"Login"}</span></p>
           </div>
         </div>
         <div className="w-[50%] hidden md:flex">
